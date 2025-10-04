@@ -21,7 +21,7 @@ url = "http://images.cocodataset.org/val2017/000000039769.jpg"
 image = Image.open(requests.get(url, stream=True).raw)
 
 # Display the loaded image
-display(image)
+#display(image)
 #define candidate texts
 texts  = ['A photo of a dog','a photo of a cat']
 
